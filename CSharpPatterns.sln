@@ -7,11 +7,13 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "01.SolidPrinciples", "01.So
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "01.01.SingleResponsibilityPrinciple", "01.01.SingleResponsibilityPrinciple\01.01.SingleResponsibilityPrinciple.csproj", "{2D9A6175-D49F-4643-82C4-3A7A404E2409}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01.02.OpenClosedPrinciple", "01.02.OpenClosedPrinciple\01.02.OpenClosedPrinciple.csproj", "{0306D15A-274F-47AE-991A-542993D049F7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "01.02.OpenClosedPrinciple", "01.02.OpenClosedPrinciple\01.02.OpenClosedPrinciple.csproj", "{0306D15A-274F-47AE-991A-542993D049F7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01.03.LiskovSubstitutionPrinciple", "01.03.LiskovSubstitutionPrinciple\01.03.LiskovSubstitutionPrinciple.csproj", "{4A26B14D-B261-47FA-AD45-0830F00483C8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "01.03.LiskovSubstitutionPrinciple", "01.03.LiskovSubstitutionPrinciple\01.03.LiskovSubstitutionPrinciple.csproj", "{4A26B14D-B261-47FA-AD45-0830F00483C8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01.04.InterfaceSegregationPrinciple", "01.04.InterfaceSegregationPrinciple\01.04.InterfaceSegregationPrinciple.csproj", "{10219A07-A217-4EBD-A7BE-6C1DFE8B60DC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "01.04.InterfaceSegregationPrinciple", "01.04.InterfaceSegregationPrinciple\01.04.InterfaceSegregationPrinciple.csproj", "{10219A07-A217-4EBD-A7BE-6C1DFE8B60DC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01.05.DependencyInversionPrinciple", "01.05.DependencyInversionPrinciple\01.05.DependencyInversionPrinciple.csproj", "{FA6157C7-780D-44B4-8814-17697096A7F7}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -35,6 +37,10 @@ Global
 		{10219A07-A217-4EBD-A7BE-6C1DFE8B60DC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{10219A07-A217-4EBD-A7BE-6C1DFE8B60DC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{10219A07-A217-4EBD-A7BE-6C1DFE8B60DC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FA6157C7-780D-44B4-8814-17697096A7F7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FA6157C7-780D-44B4-8814-17697096A7F7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FA6157C7-780D-44B4-8814-17697096A7F7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FA6157C7-780D-44B4-8814-17697096A7F7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -44,6 +50,7 @@ Global
 		{0306D15A-274F-47AE-991A-542993D049F7} = {92B68FB6-3FC7-42A6-A116-DD3ED392B924}
 		{4A26B14D-B261-47FA-AD45-0830F00483C8} = {92B68FB6-3FC7-42A6-A116-DD3ED392B924}
 		{10219A07-A217-4EBD-A7BE-6C1DFE8B60DC} = {92B68FB6-3FC7-42A6-A116-DD3ED392B924}
+		{FA6157C7-780D-44B4-8814-17697096A7F7} = {92B68FB6-3FC7-42A6-A116-DD3ED392B924}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {C0C2FAF8-3BFC-4A7B-979A-29E78155B4B9}
